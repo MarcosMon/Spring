@@ -33,4 +33,9 @@ public class ServeiAlumnat {
 		return false;
 
 	}
+	
+	public int quantitatAlumnes() {
+		
+		return repositori.llistaAlumnes().size();
+	}
 }
